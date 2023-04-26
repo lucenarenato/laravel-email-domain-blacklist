@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lucenarenato\\EmailDomainBlacklist\\": "src/Lucenarenato/EmailDomainBlacklist"
+            "Lucenarenato\\EmailDomainBlacklist\\": "src/EmailDomainBlacklist"
         }
     },
     "autoload-dev": {
@@ -28,7 +28,7 @@
             "tests/ValidatorTest.php"
         ],
         "psr-4": {
-            "Lucenarenato\\EmailDomainBlacklist\\": "src/Lucenarenato/EmailDomainBlacklist",
+            "Lucenarenato\\EmailDomainBlacklist\\": "src/EmailDomainBlacklist",
             "Tests\\": "tests/"
         }
     },
