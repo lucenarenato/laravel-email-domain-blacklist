@@ -1,4 +1,4 @@
-# Laravel Email Domain Blacklist
+# Laravel/Lumen Email Domain Blacklist
 
 [![Build Status](https://travis-ci.org/Lucenarenato/laravel-email-domain-blacklist.svg?branch=master)](https://travis-ci.org/Lucenarenato/laravel-email-domain-blacklist)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1051addffff433649030/maintainability)](https://codeclimate.com/github/Lucenarenato/laravel-email-domain-blacklist/maintainability)
