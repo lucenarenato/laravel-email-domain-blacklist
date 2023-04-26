@@ -2,17 +2,16 @@
 
 namespace Tests;
 
-use Alariva\EmailDomainBlacklist\EmailDomainBlacklistServiceProvider;
-use Orchestra\Testbench\TestCase as OrchestraTestCase;
+use Lucenarenato\EmailDomainBlacklist\EmailDomainBlacklistServiceProvider;
 
-abstract class BaseTestCase extends OrchestraTestCase
+abstract class BaseTestCase
 {
     /**
      * Load package service provider
      *
      * @param  \Illuminate\Foundation\Application $app
      *
-     * @return Alariva\EmailDomainBlacklist\EmailDomainBlacklistServiceProvider
+     * @return Lucenarenato\EmailDomainBlacklist\EmailDomainBlacklistServiceProvider
      */
     protected function getPackageProviders($app)
     {

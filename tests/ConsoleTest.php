@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use Alariva\EmailDomainBlacklist\BlacklistUpdateEmailDomainsCommand;
-use Alariva\EmailDomainBlacklist\Updater;
+use Lucenarenato\EmailDomainBlacklist\BlacklistUpdateEmailDomainsCommand;
+use Lucenarenato\EmailDomainBlacklist\Updater;
 use Illuminate\Support\Facades\Config;
 use Symfony\Component\Console\Application as ConsoleApplication;
 use Symfony\Component\Console\Tester\CommandTester;

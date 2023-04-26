@@ -1,6 +1,6 @@
 <?php
 
-namespace Alariva\EmailDomainBlacklist;
+namespace Lucenarenato\EmailDomainBlacklist;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Cache;

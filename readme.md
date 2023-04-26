@@ -1,15 +1,15 @@
 # Laravel Email Domain Blacklist
 
-[![Build Status](https://travis-ci.org/alariva/laravel-email-domain-blacklist.svg?branch=master)](https://travis-ci.org/alariva/laravel-email-domain-blacklist)
-[![Maintainability](https://api.codeclimate.com/v1/badges/1051addffff433649030/maintainability)](https://codeclimate.com/github/alariva/laravel-email-domain-blacklist/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/1051addffff433649030/test_coverage)](https://codeclimate.com/github/alariva/laravel-email-domain-blacklist/test_coverage)
-[![Latest Stable Version](https://poser.pugx.org/alariva/laravel-email-domain-blacklist/v/stable?format=flat)](https://packagist.org/packages/alariva/laravel-email-domain-blacklist)
-[![Total Downloads](https://poser.pugx.org/alariva/laravel-email-domain-blacklist/downloads?format=flat)](https://packagist.org/packages/alariva/laravel-email-domain-blacklist)
-[![Latest Unstable Version](https://poser.pugx.org/alariva/laravel-email-domain-blacklist/v/unstable?format=flat)](https://packagist.org/packages/alariva/laravel-email-domain-blacklist)
-[![License](https://poser.pugx.org/alariva/laravel-email-domain-blacklist/license?format=flat)](https://packagist.org/packages/alariva/laravel-email-domain-blacklist)
-[![Monthly Downloads](https://poser.pugx.org/alariva/laravel-email-domain-blacklist/d/monthly?format=flat)](https://packagist.org/packages/alariva/laravel-email-domain-blacklist)
-[![composer.lock](https://poser.pugx.org/alariva/laravel-email-domain-blacklist/composerlock?format=flat)](https://packagist.org/packages/alariva/laravel-email-domain-blacklist)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falariva%2Flaravel-email-domain-blacklist.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Falariva%2Flaravel-email-domain-blacklist?ref=badge_shield)
+[![Build Status](https://travis-ci.org/Lucenarenato/laravel-email-domain-blacklist.svg?branch=master)](https://travis-ci.org/Lucenarenato/laravel-email-domain-blacklist)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1051addffff433649030/maintainability)](https://codeclimate.com/github/Lucenarenato/laravel-email-domain-blacklist/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/1051addffff433649030/test_coverage)](https://codeclimate.com/github/Lucenarenato/laravel-email-domain-blacklist/test_coverage)
+[![Latest Stable Version](https://poser.pugx.org/Lucenarenato/laravel-email-domain-blacklist/v/stable?format=flat)](https://packagist.org/packages/Lucenarenato/laravel-email-domain-blacklist)
+[![Total Downloads](https://poser.pugx.org/Lucenarenato/laravel-email-domain-blacklist/downloads?format=flat)](https://packagist.org/packages/Lucenarenato/laravel-email-domain-blacklist)
+[![Latest Unstable Version](https://poser.pugx.org/Lucenarenato/laravel-email-domain-blacklist/v/unstable?format=flat)](https://packagist.org/packages/Lucenarenato/laravel-email-domain-blacklist)
+[![License](https://poser.pugx.org/Lucenarenato/laravel-email-domain-blacklist/license?format=flat)](https://packagist.org/packages/Lucenarenato/laravel-email-domain-blacklist)
+[![Monthly Downloads](https://poser.pugx.org/Lucenarenato/laravel-email-domain-blacklist/d/monthly?format=flat)](https://packagist.org/packages/Lucenarenato/laravel-email-domain-blacklist)
+[![composer.lock](https://poser.pugx.org/Lucenarenato/laravel-email-domain-blacklist/composerlock?format=flat)](https://packagist.org/packages/Lucenarenato/laravel-email-domain-blacklist)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FLucenarenato%2Flaravel-email-domain-blacklist.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FLucenarenato%2Flaravel-email-domain-blacklist?ref=badge_shield)
 
 Validate email input that it's not blacklisted for a specific domain name.
 
@@ -36,7 +36,7 @@ Add `blacklist` to the validation rules string.
 Require this package with composer:
 
 ```
-composer require alariva/laravel-email-domain-blacklist
+composer require Lucenarenato/laravel-email-domain-blacklist
 ```
 
 This package uses *AutoDiscovery*.
@@ -44,13 +44,13 @@ This package uses *AutoDiscovery*.
 If you are using Laravel <= 5.4 manually add the Service Provider to the providers array in `config/app.php`
 
 ```php
-Alariva\EmailDomainBlacklist\EmailDomainBlacklistServiceProvider::class,
+Lucenarenato\EmailDomainBlacklist\EmailDomainBlacklistServiceProvider::class,
 ```
 
 Publish the package config:
 
 ```
-php artisan vendor:publish --provider="Alariva\EmailDomainBlacklist\EmailDomainBlacklistServiceProvider" --tag=config
+php artisan vendor:publish --provider="Lucenarenato\EmailDomainBlacklist\EmailDomainBlacklistServiceProvider" --tag=config
 ```
 
 
@@ -165,7 +165,7 @@ Please try to follow the psr-2 coding style guide. http://www.php-fig.org/psr/ps
 
 This package was inspired [on this great post by Matt Kingshott](https://medium.com/@mattkingshott/laravel-validation-rule-block-disposable-email-blacklisted-domains-949cab9c59fe)
 
-  * [Ariel Vallese](https://www.linkedin.com/in/alariva/)
+  * [Renato Lucena](https://www.linkedin.com/in/renato-lucena-33777133/)
   * [Ilya Volodarsky](https://github.com/ivolo/) for maintenance of [disposable email domains repo](https://github.com/ivolo/disposable-email-domains)
   * At symbol icon made by [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar) from www.flaticon.com
 
@@ -179,4 +179,4 @@ This package was inspired [on this great post by Matt Kingshott](https://medium.
 [MIT](https://opensource.org/licenses/MIT)
 
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falariva%2Flaravel-email-domain-blacklist.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Falariva%2Flaravel-email-domain-blacklist?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FLucenarenato%2Flaravel-email-domain-blacklist.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FLucenarenato%2Flaravel-email-domain-blacklist?ref=badge_large)

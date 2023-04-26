@@ -1,8 +1,8 @@
 <?php
 
-namespace Alariva\EmailDomainBlacklist;
+namespace Lucenarenato\EmailDomainBlacklist;
 
-use Alariva\EmailDomainBlacklist\Validator as CustomValidator;
+use Lucenarenato\EmailDomainBlacklist\Validator as CustomValidator;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
 
@@ -24,9 +24,9 @@ class EmailDomainBlacklistServiceProvider extends ServiceProvider
         $this->publishConfig();
 
         // Add custom validation rules
-        Validator::extend('blacklist', "Alariva\EmailDomainBlacklist\Validator@validate");
+        Validator::extend('blacklist', "Lucenarenato\EmailDomainBlacklist\Validator@validate");
         // Add custom validation messages
-        Validator::replacer('blacklist', "Alariva\EmailDomainBlacklist\Validator@message");
+        Validator::replacer('blacklist', "Lucenarenato\EmailDomainBlacklist\Validator@message");
     }
 
     /**

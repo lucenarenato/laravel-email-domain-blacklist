@@ -1,8 +1,8 @@
 <?php
 
-namespace Alariva\EmailDomainBlacklist;
+namespace Lucenarenato\EmailDomainBlacklist;
 
-use Alariva\EmailDomainBlacklist\Updater;
+use Lucenarenato\EmailDomainBlacklist\Updater;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
