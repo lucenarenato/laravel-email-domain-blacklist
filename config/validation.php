@@ -14,7 +14,7 @@ return [
     |         You may specify the preferred URL or file path to update the
     |         blacklist.
     |         Keep null if you don't want to use a remote source.
-    |         Default: "https://raw.githubusercontent.com/ivolo/disposable-email-domains/master/index.json"
+    |         Default: "https://raw.githubusercontent.com/lucenarenato/disposable-email-domains/master/index.json"
     |
     | cache-key: string|null
     |         You may change the cache key for the sourced blacklist.
@@ -36,7 +36,7 @@ return [
 
         'blacklist' => [
 
-            'source' => 'https://raw.githubusercontent.com/ivolo/disposable-email-domains/master/index.json',
+            'source' => 'https://raw.githubusercontent.com/lucenarenato/disposable-email-domains/master/index.json',
 
             'cache-key' => 'email.domains.blacklist',
 
